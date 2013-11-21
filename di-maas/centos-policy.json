@@ -1,0 +1,12 @@
+{
+  "name": "centos-test1",
+  "repo": { "name": "centos-6.4" },
+  "installer": { "name": "centos" },
+  "broker": { "name": "noop" },
+  "enabled": true,
+  "hostname": "host${id}.disney.local",
+  "root_password": "secret",
+  "max_count": "1",
+  "rule_number": "101",
+  "tags": [{ "name": "test", "rule": ["=", ["fact", "dhcp_mac"], "08-00-27-7b-08-d9"]}]
+}
