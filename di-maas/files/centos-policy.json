@@ -1,12 +1,12 @@
 {
-  "name": "centos-test4",
+  "name": "centos64-test",
   "repo": { "name": "centos-6.4" },
-  "installer": { "name": "centos" },
+  "recipe": { "name": "centos" },
   "broker": { "name": "noop" },
   "enabled": true,
   "hostname": "host${id}.disney.local",
   "root_password": "secret",
   "max_count": "100",
-  "rule_number": "104",
-  "tags": [{ "name": "test4",  "rule": ["<=", ["num", ["fact", "processorcount"]], 1]}]
+  "rule_number": "101",
+  "tags": [{ "name": "test4",  "rule": ["<=", ["num", ["fact", "processorcount"]], 2]}]
 }

@@ -1,0 +1,12 @@
+{
+  "name": "win-2012-r2",
+  "repo": { "name": "win-srv-2012-r2" },
+  "recipe": { "name": "windows" },
+  "broker": { "name": "noop" },
+  "enabled": true,
+  "hostname": "win-host${id}.disney.local",
+  "root_password": "secret",
+  "max_count": "100",
+  "rule_number": "102",
+  "tags": [{ "name": "test",  "rule": ["<=", ["num", ["fact", "processorcount"]], 4]}]
+}
