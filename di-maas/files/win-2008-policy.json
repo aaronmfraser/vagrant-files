@@ -1,0 +1,12 @@
+{
+  "name": "win-2008-r2-sp1",
+  "repo": { "name": "win-srv-2008-r2-sp1" },
+  "recipe": { "name": "windows-2008" },
+  "broker": { "name": "noop" },
+  "enabled": true,
+  "hostname": "win-host${id}.disney.local",
+  "root_password": "secret",
+  "max_count": "100",
+  "rule_number": "103",
+  "tags": [{ "name": "win-2008",  "rule": ["=", ["num", ["fact", "processorcount"]], 1]}]
+}

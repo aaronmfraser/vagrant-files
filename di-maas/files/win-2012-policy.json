@@ -1,7 +1,7 @@
 {
   "name": "win-2012-r2",
   "repo": { "name": "win-srv-2012-r2" },
-  "recipe": { "name": "windows" },
+  "recipe": { "name": "windows-2012" },
   "broker": { "name": "noop" },
   "enabled": true,
   "hostname": "win-host${id}.disney.local",

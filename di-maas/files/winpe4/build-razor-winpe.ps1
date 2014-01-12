@@ -77,7 +77,7 @@ $wim = join-path $output "winpe.wim"
 
 
 write-host "importing dism module"
-import-module dism
+import-module "c:\Program Files (x86)\Windows Kits\8.0\Assessment and Deployment Kit\Deployment Tools\amd64\DISM"
 
 write-host "mounting the wim image"
 mount-windowsimage -imagepath $wim -index 1 -path $mount -erroraction stop
