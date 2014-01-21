@@ -1,0 +1,12 @@
+{
+  "name": "n7pcp1infratst01.compliant.disney.local",
+  "repo": { "name": "ubuntu-precise" },
+  "recipe": { "name": "ubuntu" },
+  "broker": { "name": "noop" },
+  "enabled": true,
+  "hostname": "n7pcp1infratst01.compliant.disney.local",
+  "root_password": "secret",
+  "max_count": "100",
+  "rule_number": "110",
+  "tags": [{ "name": "n7pcp1infratst01.compliant.disney.local",  "rule": ["eq", ["metadata", "host"], "n7pcp1infratst01.compliant.disney.local"]}]
+}
