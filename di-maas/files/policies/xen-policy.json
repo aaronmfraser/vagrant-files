@@ -1,0 +1,11 @@
+{
+  "name": "xen-6.2-test",
+  "repo": { "name": "xen-6.2.0" },
+  "task": { "name": "xen" },
+  "broker": { "name": "noop" },
+  "enabled": true,
+  "hostname": "host${id}.disney.local",
+  "root_password": "secret",
+  "max_count": "100",
+  "tags": [{ "name": "xen-6.2.0-test.compliant.disney.local",  "rule": ["eq", ["metadata", "host"], "xen-6.2.0-test.disney.local"]}]
+}

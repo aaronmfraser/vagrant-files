@@ -1,0 +1,6 @@
+{
+   "node": "node1",
+   "update": {
+	"host": "xen-test.disney.local"
+    }
+}
