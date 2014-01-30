@@ -5,3 +5,7 @@
 *.tar
 *.zip
 *.wim
+
+# Files #
+#########
+*.DS_Store

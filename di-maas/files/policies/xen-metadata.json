@@ -1,6 +1,6 @@
 {
    "node": "node1",
    "update": {
-	"host": "xen-test.disney.local"
+	"host": "xen-6.2.0-test.disney.local"
     }
 }
